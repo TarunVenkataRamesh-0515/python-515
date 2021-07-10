@@ -1,11 +1,11 @@
 def list_sum(l):
-    s=0
-    for i in l:
-        s+=i
-    return s
+    su=0
+    for j in l:
+        su+=j
+    return su
 def list_sort(l):
     l.sort()
     return l
 def string_list_conversions(s):
-    li = list(s)
-    return li
+    list_string = list(s)
+    return list_string
